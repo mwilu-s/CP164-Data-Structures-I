@@ -1,0 +1,101 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-02-28
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+We are checking if queue 1 is empty:  True
+
+We are populating queue 1 and queue 2
+
+Now we check again if queue1 is empty:  False
+
+How many values are in queue 2?  4
+
+We have removed one value from queue 1 and queue 2 each. q1 value:  2 and q2 value:  2
+
+ we are peeking into queue 2 and the value is:  3
+
+We have created a third queue and combined q1 and q2 into q3
+This is queue 3:
+3
+3
+4
+4
+5
+5
+
+Are q1 and q2 empty? q1 emptied:  True and q2 emptied:  True
+
+Now we are going to split q3 back into q1 and q2
+
+We check to see if q3 is empty:  True
+
+Now we will print q1:
+3
+4
+5
+
+Printing q2:
+3
+4
+5
+We will combine both lists again and then use split_key to split q3 where the key,  4 , is found
+
+We check to see if q3 is empty:  True
+
+Now we will print q1:
+3
+3
+
+Printing q2:
+4
+4
+5
+5
+
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+We are checking if queue 1 is empty:  True
+
+We are populating deque 1 and deque 2 from the front
+
+Now we check again if deque1 is empty:  False
+
+How many values are in deque 2?  4
+
+We are populating deque 1 and deque 2 from the rear
+
+How many values are in deque 2 now?  8
+
+We have removed one value from deque 1 and deque 2 each. d1 value from the front:  75 and d2 value from the rear:  6
+
+ we are peeking into deque 2 and the value from the front is:  75
+
+ we are peeking into deque 1 and the value from the rear is:  6
+We check to see if d1 and d2 are equal:  False
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------

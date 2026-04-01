@@ -1,0 +1,114 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-01-31
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+We have created a new queue. It should be empty:  True
+
+Now we are populating the queue
+
+Now the queue should not be empty:  False
+
+We populated it to its full potential so now it should be full: True
+
+The maximum values that the queue can hold is 10
+
+Therefore, the queue the length should equal the maximum: 10
+
+We are peeking at the first value and it is: 1
+
+We hae created another queue that is empty
+
+We will determine whether the fully populated queue is equal to the empty queue and it should be false: False
+
+We are now going to remove a value from the original queue which is full. The value removed is:  1
+
+The queue should now be one less of the maximum capacity values 10 So now there are 9 values in the queue
+We are now iterating through the queue:
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Item populated into Q1: 2
+Item populated into Q2: 2
+Item populated into Q1: 3
+Item populated into Q2: 3
+Item populated into Q1: 4
+Item populated into Q2: 4
+Item populated into Q1: 5
+Item populated into Q2: 5
+Both queues have been populated now it is time to determine if they are equal.
+Are both queues equal?  True
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+The resulting target of q1 and q2:
+1
+4
+2
+5
+3
+6
+
+The resulting target of q3 and q4:
+7
+9
+8
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+The resulting target of q1 and q2:
+10
+40
+20
+50
+30
+60
+
+The resulting target of q3 and q4:
+70
+90
+80
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Target 1:
+2
+3
+4
+5
+
+Target 2:
+9
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Target 1:
+2
+
+Target 2:
+8
+10
+9
+35
+-------------------------------------------------------
+t07
+-------------------------------------------------------

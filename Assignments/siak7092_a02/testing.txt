@@ -1,0 +1,183 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-01-17
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter a movie year release: 2007
+[<Movie.Movie object at 0x000002C83F6354C0>, <Movie.Movie object at 0x000002C83F635640>, <Movie.Movie object at 0x000002C83F6356D0>, <Movie.Movie object at 0x000002C83F6353D0>]
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action 
+
+Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy 
+
+Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy 
+
+Title:    Darjeeling Limited, The
+Year:     2007
+Director: Wes Anderson
+Rating:   7.1
+Genres:   comedy 
+
+
+Enter a movie year release: 2005
+[<Movie.Movie object at 0x00000163B6CA67E0>]
+Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy 
+
+Enter a movie year release: 0000
+[]
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter a movie rating: 10
+[]
+
+Enter a movie rating: 8
+[<Movie.Movie object at 0x0000022906D96870>, <Movie.Movie object at 0x0000022906D969C0>, <Movie.Movie object at 0x0000022906D96A50>]
+Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action 
+
+Title:    Z
+Year:     1969
+Director: Costa-Gavras
+Rating:   8.2
+Genres:   drama 
+
+Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action 
+
+Enter a movie rating: 9
+[]
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter a movie genre: romance
+[<Movie.Movie object at 0x000002BDF0F864B0>, <Movie.Movie object at 0x000002BDF0F86750>, <Movie.Movie object at 0x000002BDF0F867E0>]
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror 
+
+Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy 
+
+Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy 
+
+Enter a movie genre: none
+[]
+
+Enter a movie genre: fantasy
+[<Movie.Movie object at 0x000002C96A6266C0>, <Movie.Movie object at 0x000002C96A6268D0>, <Movie.Movie object at 0x000002C96A626A20>]
+Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy 
+
+Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action 
+
+Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action 
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+[<Movie.Movie object at 0x00000222DBAF6570>, <Movie.Movie object at 0x00000222DBAF66F0>, <Movie.Movie object at 0x00000222DBAF6870>]
+Title:    Darjeeling Limited, The
+Year:     2007
+Director: Wes Anderson
+Rating:   7.1
+Genres:   comedy 
+
+Title:    Wrong Box, The
+Year:     1966
+Director: Bryan Forbes
+Rating:   7.0
+Genres:   comedy 
+
+Title:    Finding Dory
+Year:     2016
+Director: Andrew Stanton, Angus MacLane
+Rating:   7.5
+Genres:   comedy 
+
+[<Movie.Movie object at 0x0000021EBAE16660>, <Movie.Movie object at 0x0000021EBAE168A0>, <Movie.Movie object at 0x0000021EBAE168D0>]
+Title:    Horror of Dracula
+Year:     1958
+Director: Terence Fisher
+Rating:   7.4
+Genres:   horror 
+
+Title:    Manos: The Hands of Fate
+Year:     1966
+Director: Harold P. Warren
+Rating:   1.9
+Genres:   horror 
+
+Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: Ray Dennis Steckler
+Rating:   2.2
+Genres:   horror 
+
+[<Movie.Movie object at 0x000001C9AB846840>, <Movie.Movie object at 0x000001C9AB846990>]
+Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action 
+
+Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action 
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+[6, 3, 2, 3, 8, 1, 5, 0, 4, 1, 0]
+-------------------------------------------------------

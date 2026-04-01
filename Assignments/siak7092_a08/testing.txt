@@ -1,0 +1,94 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-03-13
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+We are inserting integers into both trees.
+
+We are checking to see if both trees are equal: True 
+
+We are removing the number 3 from tree 2. The value:  3
+We are checking to see if both trees are equal now: False 
+
+The minimum value in tree 1:  1
+One child count of tree 1:  6
+Two child count of tree 2:  0
+Leaf count of tree 2:  1
+level order of tree 2:  [1, 2, 3, 4, 5, 6, 7]
+Post order of tree 1:  [7, 6, 5, 4, 3, 2, 1]
+Pre-order of tree 2:  [1, 2, 3, 4, 5, 6, 7]
+In order of tree 1:  [1, 2, 3, 4, 5, 6, 7]
+Checking validity of tree 2:  True
+Checking the if tree 1 is balanced:  False
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Testing for DATA1 and File 1 (Gibbon):
+
+Testing for DATA1 and File 2 (Gibbon):
+
+Testing for DATA2 and File 1 (Gibbon):
+
+Testing for DATA2 and File 2 (Gibbon):
+
+Testing for DATA3 and File 1 (Gibbon):
+
+Testing for DATA3 and File 2 (Gibbon):
+
+Comparing by order: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+55580114
+------------------------------------------------------------
+Comparing by order: MFTCJPWADHKNRUYBEIGLOQSVXZ
+17279164
+------------------------------------------------------------
+Comparing by order: ETAOINSHRDLUCMPFYWGBVKJXZQ
+15871793
+Testing for DATA1 and File 1 (Gibbon):
+
+Testing for DATA1 and File 2 (Gibbon):
+
+Testing for DATA2 and File 1 (Gibbon):
+
+Testing for DATA2 and File 2 (Gibbon):
+
+Testing for DATA3 and File 1 (Gibbon):
+
+Testing for DATA3 and File 2 (Gibbon):
+
+Comparing by order: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+55580114
+------------------------------------------------------------
+Comparing by order: MFTCJPWADHKNRUYBEIGLOQSVXZ
+17279164
+------------------------------------------------------------
+Comparing by order: ETAOINSHRDLUCMPFYWGBVKJXZQ
+15871793
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------

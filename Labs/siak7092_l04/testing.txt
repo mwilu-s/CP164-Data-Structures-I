@@ -1,0 +1,230 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-01-31
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Title:    Shrek
+Year:     2005
+Director: Me
+Rating:   10
+Genres:   None
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Appending numbers 7,9,4 and 2 to the list
+
+The number(s) in the list:
+7
+9
+4
+2
+
+Now inserting number 20 at position 3
+
+The value at position 3 is 20
+
+Now removing number 7
+
+The number removed is 7
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+The index of the first number 7 in the list is 0
+
+The value found for the key = 4: 4
+
+Is the number 6 in the list? True
+How many times does the number 10 appear in the list: 0
+
+The maximum value in the list is 20 and the minimum value is 4
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+The value at position 0 is 9
+Now the value at position 0 is 7
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+We have transfered the contents of the list to target. This is target [1, 2, 3, 4]
+We have transfered the contents of the target back to the list. This is target []
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+We have created a new list and it should be empty: False
+
+We have appended Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror to the list
+
+We have appended Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction to the list
+
+We have appended Title:    Zulu
+Year:     1964
+Director: Cy Endfield
+Rating:   7.8
+Genres:   war to the list
+
+We have appended Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action to the list
+
+We have appended Title:    Omega Man, The
+Year:     1971
+Director: Boris Sagal
+Rating:   6.6
+Genres:   science fiction, action to the list
+
+We have appended Title:    Last Man On Earth, The
+Year:     1964
+Director: Ubaldo Ragona
+Rating:   6.9
+Genres:   science fiction to the list
+
+We have appended Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy to the list
+
+We have appended Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy to the list
+
+We have appended Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy to the list
+
+We have appended Title:    Darjeeling Limited, The
+Year:     2007
+Director: Wes Anderson
+Rating:   7.1
+Genres:   comedy to the list
+
+We have appended Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy to the list
+
+We have appended Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action to the list
+
+We have appended Title:    Horror of Dracula
+Year:     1958
+Director: Terence Fisher
+Rating:   7.4
+Genres:   horror to the list
+
+We have appended Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action to the list
+
+We have appended Title:    Wrong Box, The
+Year:     1966
+Director: Bryan Forbes
+Rating:   7.0
+Genres:   comedy to the list
+
+We have appended Title:    Finding Dory
+Year:     2016
+Director: Andrew Stanton, Angus MacLane
+Rating:   7.5
+Genres:   comedy to the list
+
+We have appended Title:    Manos: The Hands of Fate
+Year:     1966
+Director: Harold P. Warren
+Rating:   1.9
+Genres:   horror to the list
+
+We have appended Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: Ray Dennis Steckler
+Rating:   2.2
+Genres:   horror to the list
+
+We have appended Title:    Z
+Year:     1969
+Director: Costa-Gavras
+Rating:   8.2
+Genres:   drama to the list
+
+We have appended Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action to the list
+
+We have appended Title:    Zulu
+Year:     2013
+Director: Jerome Salle
+Rating:   6.7
+Genres:   drama to the list
+
+
+Now we will be testing the list to array and array to list methods
+
+We have transfered the contents of the list to target. This is target [] and the list is empty? True
+
+We have transfered the contents of the target back to the list. This is target [] and the list is empty? True
+
+Now inserting number 20 at position 3
+
+The value at position 3 is *Inserted Test*
+
+Now we are testing values at certain indices and finding them and setting them
+The value at position 0 is Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+Now the value at position 0 is *Testing Values*
+
+Now testing count, index, contains and find methods
+Traceback (most recent call last):
+  File "C:\Users\mwilu\OneDrive\Desktop\Semester 2 -- Year 1\CP164\siak7092_l04\src\t07.py", line 20, in <module>
+    list_test(movies)
+  File "C:\Users\mwilu\OneDrive\Desktop\Semester 2 -- Year 1\CP164\siak7092_data_structures\src\utilities.py", line 363, in list_test
+    index1 = lst.index(val)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\mwilu\OneDrive\Desktop\Semester 2 -- Year 1\CP164\siak7092_data_structures\src\List_array.py", line 308, in index
+    i = self._linear_search(key)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mwilu\OneDrive\Desktop\Semester 2 -- Year 1\CP164\siak7092_data_structures\src\List_array.py", line 139, in _linear_search
+    if self._values[index] == key:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mwilu\OneDrive\Desktop\Semester 2 -- Year 1\CP164\siak7092_data_structures\src\Movie.py", line 128, in __eq__
+    (other.title.lower(), other.year)
+     ^^^^^^^^^^^^^^^^^
+AttributeError: 'builtin_function_or_method' object has no attribute 'lower'

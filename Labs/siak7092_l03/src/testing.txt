@@ -1,0 +1,62 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-01-23
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+1
+2
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+The source should now look like:  []
+The target looks like: [1, 8, 3, 4, 5, 7]
+Queue is empty?: True
+Therefore, the length of the queue is 0?: 0
+A value has been inserted, the queue should be empty (false): False
+Therefore, the length of the queue is 1?: 0
+The value that has been inserted and peeked at in the queue: 4
+The number that has been removed from the queue is: 4
+The queue should now be empty (True): True
+Therefore, the length of the queue is 0?: 0
+
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+0
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+0
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+The source should now look like:  []
+The target looks like: [1, 2, 3, 4, 5]
+Queue is empty?: True
+A value has been inserted, the queue should not be empty (false): False
+The value that has been inserted and peeked at in the queue: Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+The number that has been removed from the queue is: Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+The queue should now be empty (True): True

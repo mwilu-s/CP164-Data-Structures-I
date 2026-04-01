@@ -1,0 +1,144 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-03-13
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Hash     Slot Key
+
+-------- ---- --------------------
+ 1020545    1 Shrek, 2005
+ 1185546    5 Shrek 2, 2006
+ 2835891    2 Shrek, The Third, 2007
+ 3614400    6 Shrek Forever After, 2008
+ 5791947    0 Shrek -- I hope this is not a flop, 2009
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+With Shrek Forever After:
+
+Title:    Shrek Forever After
+Year:     2008
+Director: I am not sure
+Rating:   7.5
+Genres:   drama, comedy 
+
+Title:    Shrek
+Year:     2005
+Director: I am not sure
+Rating:   9.7
+Genres:   drama, comedy 
+
+Title:    Shrek, The Third
+Year:     2007
+Director: I am not sure
+Rating:   9.5
+Genres:   drama, comedy 
+
+Title:    Shrek 2
+Year:     2006
+Director: I am not sure
+Rating:   10.0
+Genres:   drama, comedy 
+
+Title:    Shrek 5 -- I hope this is not a flop
+Year:     2009
+Director: I am not sure
+Rating:   8
+Genres:   drama, comedy 
+
+Without Shrek Forever After:
+
+Title:    Shrek
+Year:     2005
+Director: I am not sure
+Rating:   9.7
+Genres:   drama, comedy 
+
+Title:    Shrek, The Third
+Year:     2007
+Director: I am not sure
+Rating:   9.5
+Genres:   drama, comedy 
+
+Title:    Shrek 2
+Year:     2006
+Director: I am not sure
+Rating:   10.0
+Genres:   drama, comedy 
+
+Title:    Shrek 5 -- I hope this is not a flop
+Year:     2009
+Director: I am not sure
+Rating:   8
+Genres:   drama, comedy 
+
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+5 Slots
+----------------------------------------
+Slot 0
+
+Title:    Shrek Forever After
+Year:     2008
+Director: I am not sure
+Rating:   7.5
+Genres:   drama, comedy
+Title:    Shrek
+Year:     2005
+Director: I am not sure
+Rating:   9.7
+Genres:   drama, comedy
+----------------------------------------
+Slot 1
+
+Title:    Shrek, The Third
+Year:     2007
+Director: I am not sure
+Rating:   9.5
+Genres:   drama, comedy
+Title:    Shrek 2
+Year:     2006
+Director: I am not sure
+Rating:   10.0
+Genres:   drama, comedy
+----------------------------------------
+Slot 2
+
+Title:    Shrek 5 -- I hope this is not a flop
+Year:     2009
+Director: I am not sure
+Rating:   8
+Genres:   drama, comedy
+----------------------------------------
+Slot 3
+
+----------------------------------------
+Slot 4
+
+----------------------------------------
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------

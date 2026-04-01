@@ -1,0 +1,118 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Version: 2025-01-10
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+science fiction, romance
+
+science fiction, horror
+
+drama, comedy
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+2,4
+
+2,4,8
+
+1,2,7
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (ENTER to quit): 
+Error: must have at least one genre
+Enter a genre number (ENTER to quit): 
+Error: must have at least one genre
+Enter a genre number (ENTER to quit): 
+Error: must have at least one genre
+Enter a genre number (ENTER to quit): 
+Error: must have at least one genre
+Enter a genre number (ENTER to quit): 
+Error: must have at least one genre
+Enter a genre number (ENTER to quit): -1
+Error: not a positive number
+Enter a genre number (ENTER to quit): 2
+Enter a genre number (ENTER to quit): -1
+Error: not a positive number
+Enter a genre number (ENTER to quit): 2
+Error: genre already chosen
+Enter a genre number (ENTER to quit): 8
+Enter a genre number (ENTER to quit): 
+[2, 8]
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Title: Shrek
+Year: 2005
+Director: Me
+Rating: 9.9
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (ENTER to quit): 3
+Enter a genre number (ENTER to quit): 
+Title:    Shrek
+Year:     2005
+Director: Me
+Rating:   9.9
+Genres:   romance
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Title:    Shrek
+Year:     2005
+Director: Me
+Rating:   9.9
+Genres:   romance, zombie
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+[<Movie.Movie object at 0x000001FC6FB56360>, <Movie.Movie object at 0x000001FC6F929CA0>, <Movie.Movie object at 0x000001FC6FB55A00>, <Movie.Movie object at 0x000001FC6FB563F0>, <Movie.Movie object at 0x000001FC6FB56450>, <Movie.Movie object at 0x000001FC6FB56390>, <Movie.Movie object at 0x000001FC6FB564E0>, <Movie.Movie object at 0x000001FC6FB56540>, <Movie.Movie object at 0x000001FC6FB565D0>, <Movie.Movie object at 0x000001FC6FB56480>, <Movie.Movie object at 0x000001FC6FB56660>, <Movie.Movie object at 0x000001FC6FB566C0>, <Movie.Movie object at 0x000001FC6FB56570>, <Movie.Movie object at 0x000001FC6FB56750>, <Movie.Movie object at 0x000001FC6FB56600>, <Movie.Movie object at 0x000001FC6FB56780>, <Movie.Movie object at 0x000001FC6FB567B0>, <Movie.Movie object at 0x000001FC6FB567E0>, <Movie.Movie object at 0x000001FC6FB56810>, <Movie.Movie object at 0x000001FC6FB568A0>, <Movie.Movie object at 0x000001FC6FB568D0>]
